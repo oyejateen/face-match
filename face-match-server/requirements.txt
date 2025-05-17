@@ -1,0 +1,5 @@
+flask==2.0.1
+deepface==0.0.79
+opencv-python==4.8.0.76
+numpy==1.24.3
+requests==2.31.0 
