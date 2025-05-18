@@ -53,56 +53,33 @@ face-match/
 
 ### Client Setup
 
-1. Navigate to the client directory:
-   ```bash
-   cd face-match-client
-   ```
-
-2. Install dependencies:
+1. Install dependencies:
    ```bash
    npm install
    ```
 
-3. Start the development server:
+2. Start the development server:
    ```bash
    npm start
    ```
 
 ### Server Setup
 
-1. Navigate to the server directory:
-   ```bash
-   cd face-match-server
-   ```
-
-2. Create and activate virtual environment:
+1. Create and activate virtual environment:
    ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
    ```
 
-3. Install dependencies:
+2. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
 
-4. Start the server:
+3. Start the server:
    ```bash
    uvicorn app.main:app --reload
    ```
-
-## Environment Variables
-
-### Client (.env)
-```
-API_URL=http://localhost:8000
-```
-
-### Server (.env)
-```
-UPLOAD_DIR=uploads
-MODEL_NAME=DeepFace
-```
 
 ## Contributing
 
@@ -115,9 +92,3 @@ MODEL_NAME=DeepFace
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- DeepFace library for facial recognition
-- Expo team for the amazing React Native framework
-- FastAPI for the high-performance backend framework 
