@@ -1,6 +1,15 @@
 # Face Match
 
-A mobile application that uses facial recognition to find similar faces in your photo library. Built with React Native and Python for codeQuest
+## Problem Statement
+A mobile-first application that compares faces across two or more images using AI-powered facial recognition. Built for the **CodeQuest AI & Computer Vision Contest** organized by the **District Administration, Bhilwara**.
+
+## 👥 Team Name & Members
+**Team FaceVision**  
+- Jatin Narayan  
+- Ankit Sharma  
+- Aditya Maheshwari  
+- Nitesh Verma
+
 
 ## Features
 
@@ -8,6 +17,13 @@ A mobile application that uses facial recognition to find similar faces in your 
 - 🔍 Find similar faces in your photo library
 - 📱 Cross-platform mobile app (iOS & Android)
 - 💾 Save matches as albums
+
+## Demo
+[Take me to the Demo](https://drive.google.com/file/d/1jF0WLPULUx-uA2nCIcpD60qtYaySQt9L/view?usp=drivesdk)
+
+
+https://github.com/user-attachments/assets/018894cf-0df2-488c-bf23-045b7e2d2689
+
 
 ## Tech Stack
 
@@ -80,14 +96,6 @@ face-match/
    ```bash
    uvicorn app.main:app --reload
    ```
-
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 ## License
 
